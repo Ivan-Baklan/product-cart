@@ -1,0 +1,41 @@
+<html>
+  <head>
+    <title>Parcel Sandbox</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="src/style.css" />
+  </head>
+
+  <body>
+    <div class="cart-container">
+      <form action="" class="cart-form">
+        <h2>Add your Product</h2>
+        <input
+          type="text"
+          id="product-name"
+          name="product-name"
+          class="text-input"
+          placeholder="Product Name"
+        />
+        <input
+          type="text"
+          id="product-price"
+          name="product-price"
+          class="text-input"
+          placeholder="Product Price"
+        />
+        <input
+          type="text"
+          id="product-date"
+          name="product-date"
+          class="text-input"
+          placeholder="Product Date"
+        />
+        <input type="button" value="Submit" class="submit-input" />
+      </form>
+
+      <div id="cart-list" class="cart-list"></div>
+    </div>
+
+    <script src="./src/script.js"></script>
+  </body>
+</html>
